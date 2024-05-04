@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 4</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="name">nombre</label>
+        <input type="text" name="name" placeholder="jam">
+        <label for="email">correo</label>
+        <input type="email" name="correo" placeholder="example@example">
+        <label for="bio">biografia</label>
+        <textarea name="bio" id="" cols="50" rows="4"></textarea>
+
+        <label for="gender">seleccione su genero:</label>
+        <input list="gender" id="" name="gender">
+        <datalist id="gender">
+            <option value="hombre">
+            <option value="mujer">
+            <option value="otro">
+        </datalist>
+        
+        <fieldset>
+            <legend>seleccione su navegador:</legend>
+            <label><input type="radio" name="navegador" value="chrome"> chrome</label>
+            <label><input type="radio" name="navegador" value="edge"> edge</label>
+            <label><input type="radio" name="navegador" value="safari"> safari</label>
+            <label><input type="radio" name="navegador" value="firefox"> firefox</label>
+            <label><input type="radio" name="navegador" value="opera"> opera</label>
+        </fieldset>
+        <button type="submit">enviar</button>
+    </form>
+</body>
+</html>
